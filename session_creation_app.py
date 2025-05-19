@@ -181,7 +181,7 @@ def create_session_index_lists(oral_df, session_column='Original Session'):
 
 st.subheader("Data Retrieval Date: January 29, 2025")
 st.write("**NOTE:** ***This sort is based on the initial submission of titles, abstracts and session placement before session organization process.***")
-st.write("This only includes presentations submitted to the ITSC technical community for AIM 2025. This is a companion tool to a research manusciprt that is currently under review.")
+st.write("This only includes presentations submitted to the ITSC technical community for AIM 2025. This is a companion tool to a research manuscript that is currently under review.")
 
 # Load DataFrames
 # Load presentations first.
