@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 st.set_page_config(
-    page_title="AIM 2025 Presentation Similarity",
+    page_title="Automated Session Creation Visualization Tool - AIM 2025 (ITSC Only)",
     page_icon=":material/category_search:",
     layout="wide",
 )
@@ -47,7 +47,7 @@ def calculate_cluster_similarities(similarity_matrix, labels):
             
     return document_similarities, cluster_avg_similarities
 
-st.title("Presentation Similarity Exploration Tool")
+st.title("Automated Session Creation Visualization Tool - AIM 2025 (ITSC Only)")
 
 def calculate_session_similarity(presentations, similarity_matrix, session_column='Original Session'):
     """
@@ -181,6 +181,7 @@ def create_session_index_lists(oral_df, session_column='Original Session'):
 
 st.subheader("Data Retrieval Date: January 29, 2025")
 st.write("**NOTE:** ***This sort is based on the initial submission of titles, abstracts and session placement before session organization process.***")
+st.write("This only includes presentations submitted to the ITSC technical community for AIM 2025. This is a companion tool to a research manusciprt that is currently under review.")
 
 # Load DataFrames
 # Load presentations first.
